@@ -9,7 +9,7 @@
 $ git clone https://github.com/1mehal/rust_simple_server.git
 $ cd rust_simple_server
 # install dependencies
-$ cargo 
+$ cargo install
 
 
 # in case of errors with core-js please install core-js manually
