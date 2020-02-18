@@ -16,7 +16,7 @@ struct Claims {
 #[get("/hello?<token>")]
 fn hello(token: String) -> Result<String, Status> {
     let pubkey_pem = include_bytes!("asdemo_jwt256.key.pub");
-    // let token = decode::<Claims>(&token, &DecodingKey::from_rsa_components(jwk["n"], jwk["e"]), &Validation::new(Algorithm::RS256))?;
+
     let _token_data = decode::<Claims>(&token, &DecodingKey::from_rsa_pem(pubkey_pem).unwrap(), &Validation::new(Algorithm::RS256));
     match _token_data {
         Ok(c) => {
