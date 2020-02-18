@@ -5,6 +5,9 @@
 ## Build Setup
 
 ``` bash
+# Clone this repository and cd to resulting dirrectory
+$ git clone https://github.com/1mehal/rust_simple_server.git
+$ cd rust_simple_server
 # install dependencies
 $ cargo 
 
