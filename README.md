@@ -2,6 +2,8 @@
 
 > Second http-enabled client for amazing opportunity
 > Please make sure you have rustup (<https://rustup.rs>) installed with nightly toolchain 
+$ rustup toolchain install nightly
+$ rustup default nightly
 ## Build Setup
 
 ``` bash
