@@ -1,12 +1,13 @@
 # Rust Simple Greetings server for magic_login_app
 
 > Second http-enabled client for amazing opportunity
-> Please make sure you have rustup (<https://rustup.rs>) installed with nightly toolchain 
-$ rustup toolchain install nightly
-$ rustup default nightly
+
 ## Build Setup
 
 ``` bash
+# Please make sure you have rustup (<https://rustup.rs>) installed with nightly toolchain 
+$ rustup toolchain install nightly
+$ rustup default nightly
 # Clone this repository and cd to resulting dirrectory
 $ git clone https://github.com/1mehal/rust_simple_server.git
 $ cd rust_simple_server
